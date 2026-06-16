@@ -24,7 +24,7 @@ def get_weather(city : str) -> str:
         )
     
     data = response.json()
-    # print(data.keys())
+    # print(data)
 
     temp = data["main"]["temp"]
     weather = data["weather"][0]["description"]
