@@ -1,8 +1,7 @@
 import httpx
-from config import WEATHER_API, GROQ_API_KEY
-
-
+from config import WEATHER_API
 from langchain.tools import tool
+
 
 @tool
 def get_weather(city : str) -> str:
