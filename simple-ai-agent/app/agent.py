@@ -6,6 +6,11 @@ llm = ChatGroq(groq_api_key = GROQ_API_KEY,
                model="llama-3.1-8b-instant",
                temperature =0)
 
+
+# print ((llm.invoke("What is rag?")).content)
+# print ((llm.invoke("What is 8*15?")).content)
+# print ((llm.invoke("What is weather in chennai today?")).content)
+
 #bind the lmm and the tools
 Tools =[
     get_weather
