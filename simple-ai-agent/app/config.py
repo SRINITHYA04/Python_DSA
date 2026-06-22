@@ -8,3 +8,6 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 WEATHER_API = os.getenv("OPENWEATHERMAP_API_KEY")
 # print(WEATHER_API)
+
+GOLD_API_KEY = os.getenv("METALPRICE_API_KEY")
+# print(GOLD_API_KEY)
